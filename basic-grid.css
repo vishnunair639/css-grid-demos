@@ -1,0 +1,13 @@
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+
+    /*  Using repeat 
+     *1 fr stands for 1 fractional unit, if there is only 1 column it means 100& of the avalable space, in case of 2 columns, 50% of available space and so on.
+    grid-template-columns: repeat(12, 1fr);
+    */
+
+    /* Using auto fill to avoid over flows */
+    /* Using minmax to set minimum value of the the column width ==> 240 px and maximung value ==> 1fr*/
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}

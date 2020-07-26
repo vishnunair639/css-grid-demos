@@ -1,2 +1,6 @@
-# css-grid-demos
-Simple responsive layouts using CSS grid.
+# Layouts using CSS Grid system
+
+* DEMO 1 = Basic 12 columns grid
+* DEMO 2 - Photo  gallery grid.
+
+
